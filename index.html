@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice Tasks</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .instructions {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .instructions h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .instructions p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .f12-tip {
+            background: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 10px;
+            padding: 12px;
+            margin: 15px 0;
+            color: #1976d2;
+            font-weight: bold;
+            font-size: 0.95rem;
+        }
+
+        .countdown-message {
+            color: #2e7d32 !important;
+            font-size: 1.3rem;
+            font-weight: bold;
+            background: #e8f5e8;
+            border: 2px solid #2e7d32;
+            border-radius: 10px;
+            padding: 18px;
+            margin: 25px 0;
+            box-shadow: 0 6px 20px rgba(46, 125, 50, 0.2);
+        }
+
+        .task-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        .task-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-left: 4px solid #667eea;
+        }
+
+        .task-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .task-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .task-card p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .task-number {
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .task-grid { grid-template-columns: 1fr; }
+            body { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 JavaScript Practice Tasks</h1>
+            <p>Problem solving with JavaScript - Interactive coding challenges</p>
+        </div>
+
+        <div class="instructions">
+            <h2>How to Use</h2>
+            <p class="countdown-message">This website contains 15 JavaScript practice tasks. The tasks will start automatically in 15 seconds!</p>
+            <div class="f12-tip">
+                💡 <strong>Open Developer Tools by pressing F12</strong> to view the console output!
+            </div>
+            <p>Watch the console as each task executes and prompts you for input.</p>
+        </div>
+
+        <div class="task-grid">
+            <div class="task-card">
+                <div class="task-number">1</div>
+                <h3>🔄 Reverse Array</h3>
+                <p>Reverse the order of elements in an array. Enter a number and see it reversed!</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">2</div>
+                <h3>➕ Sum of Digits</h3>
+                <p>Calculate the sum of all digits in a number. Enter digits and get the total sum.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">3</div>
+                <h3>🔢 Even or Odd</h3>
+                <p>Check if a number is even or odd. Enter any number to find out!</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">4</div>
+                <h3>🏆 Largest Number</h3>
+                <p>Find the largest number in an array. Enter numbers separated by spaces.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">5</div>
+                <h3>📝 Reverse Text</h3>
+                <p>Reverse a word or sentence. Enter any text to see it backwards!</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">6</div>
+                <h3>🎯 Most Frequent</h3>
+                <p>Find the most frequent element in an array. Enter elements to see which appears most.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">7</div>
+                <h3>🧹 Remove Duplicates</h3>
+                <p>Remove duplicate elements from an array. Enter numbers to get a clean list.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">8</div>
+                <h3>🔄 Reverse Sentence</h3>
+                <p>Reverse the order of words in a sentence. Enter a sentence to see it flipped!</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">9</div>
+                <h3>🔍 Prime Numbers</h3>
+                <p>Find all prime numbers in a range. Enter a number to see all primes up to it.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">10</div>
+                <h3>📊 Sum of Array</h3>
+                <p>Calculate the sum of all elements in an array. Enter numbers to get the total.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">11</div>
+                <h3>✖️ Multiplication Table</h3>
+                <p>Generate a multiplication table for a number. Enter a number to see its table.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">12</div>
+                <h3>👥 Sort by Age</h3>
+                <p>Sort an array of objects by age. Enter names and ages to see them sorted.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">13</div>
+                <h3>🧮 Calculator</h3>
+                <p>Basic calculator operations. Choose add, subtract, or multiply with two numbers.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">14</div>
+                <h3>🎲 Factorial</h3>
+                <p>Calculate the factorial of a number. Enter a number to see its factorial.</p>
+            </div>
+
+            <div class="task-card">
+                <div class="task-number">15</div>
+                <h3>📅 Days Between Dates</h3>
+                <p>Calculate days between two dates. Enter two dates to see the difference.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🎯 Tasks will start automatically in 15 seconds! Open F12 to see the console output!</p>
+        </div>
+    </div>
+
+    <!-- Load JavaScript after 15 seconds using CSS animation delay -->
+    <script>
+        setTimeout(function() {
+            const script = document.createElement('script');
+            script.src = 'script.js';
+            document.body.appendChild(script);
+        }, 15000);
+    </script>
+</body>
+</html>
