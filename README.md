@@ -93,7 +93,7 @@ AlhussienHazem-Task-7/
 
 1. **Clone the repository**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/alhussienhazem/javascript-practice-tasks.git
    ```
 
 2. **Navigate to the project directory**
