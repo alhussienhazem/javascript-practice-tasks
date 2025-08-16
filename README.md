@@ -2,7 +2,11 @@
 
 ## 📸 Website Preview
 
+<div align="center">
+
 ![JavaScript Practice Tasks Website](website-showcase.png)
+
+</div>
 
 *Modern responsive website featuring 15 interactive JavaScript coding challenges with beautiful UI and automatic task execution*
 
@@ -18,7 +22,6 @@
 - [📚 Tasks Overview](#-tasks-overview)
 - [🎯 Key Features](#-key-features)
 - [📱 User Experience](#-user-experience)
-- [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [🌟 Special Thanks](#-special-thanks)
 
@@ -27,6 +30,8 @@
 ## 📋 Project Overview
 
 **JavaScript Practice Tasks** is a modern, interactive website featuring 15 JavaScript coding challenges designed to enhance problem-solving skills. Built with HTML, CSS, and vanilla JavaScript, this project provides an engaging learning experience with automatic task execution and beautiful user interface.
+
+---
 
 ## ✨ Features
 
@@ -72,6 +77,8 @@ AlhussienHazem-Task-7/
 └── website-showcase.png # Website preview image
 ```
 
+---
+
 ## 🎨 Design Features
 
 - **Gradient Background** - Beautiful purple-blue gradient
@@ -79,6 +86,8 @@ AlhussienHazem-Task-7/
 - **Interactive Elements** - Hover effects and smooth transitions
 - **Professional Typography** - Clear, readable text hierarchy
 - **Color-coded Sections** - Visual organization and emphasis
+
+---
 
 ## 🚀 Getting Started
 
@@ -96,6 +105,8 @@ AlhussienHazem-Task-7/
    - Open `index.html` in your web browser
    - Press F12 to open Developer Tools
    - Wait 15 seconds for tasks to start automatically
+
+---
 
 ## 📚 Tasks Overview
 
@@ -117,6 +128,8 @@ AlhussienHazem-Task-7/
 | 🎲 **14. Factorial** | Calculate factorial | "5" | "120" |
 | 📅 **15. Days Between** | Calculate date difference | "2025-01-01 and 2025-01-10" | "9 days" |
 
+---
+
 ## 🎯 Key Features
 
 - ✅ **15 Diverse Challenges** - Covers various programming concepts
@@ -126,6 +139,8 @@ AlhussienHazem-Task-7/
 - ✅ **Responsive Design** - Works on all devices
 - ✅ **Modern UI/UX** - Professional appearance and animations
 - ✅ **ES5 Compatibility** - Works in all browsers
+
+---
 
 ## 📱 User Experience
 
@@ -148,23 +163,17 @@ AlhussienHazem-Task-7/
 - **User input handling** - Prompt and data processing
 - **Console debugging** - Developer Tools experience
 
-## 🤝 Contributing
-
-This is a learning project showcasing JavaScript problem-solving skills. Feel free to explore the code, modify tasks, or add new challenges!
+---
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Attribution
-
-This project was created as a JavaScript practice platform, focusing on fundamental programming concepts and problem-solving skills.
-
 ---
 
 ## 🌟 Special Thanks
 
-- **Badr** - For assigning this comprehensive JavaScript practice task
+- **Instructor Badr** - For assigning this comprehensive JavaScript practice task
 - **Modern web standards** - For enabling responsive design
 - **Browser Developer Tools** - For console integration
 - **CSS Grid & Flexbox** - For advanced layout capabilities
