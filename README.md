@@ -8,7 +8,11 @@
 
 </div>
 
-*Modern responsive website featuring 15 interactive JavaScript coding challenges with beautiful UI and automatic task execution*
+<div align="center">
+
+> *Modern responsive website featuring 15 interactive JavaScript coding challenges with beautiful UI and automatic task execution*
+
+</div>
 
 ---
 
