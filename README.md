@@ -74,7 +74,7 @@
 ## 📁 Project Structure
 
 ```
-AlhussienHazem-Task-7/
+javascript-practice-tasks/
 ├── index.html          # Main website interface
 ├── script.js           # 15 JavaScript coding tasks
 ├── README.md           # This file
@@ -100,12 +100,7 @@ AlhussienHazem-Task-7/
    git clone https://github.com/alhussienhazem/javascript-practice-tasks.git
    ```
 
-2. **Navigate to the project directory**
-   ```bash
-   cd AlhussienHazem-Task-7
-   ```
-
-3. **Open in your browser**
+2. **Open in your browser**
    - Open `index.html` in your web browser
    - Press F12 to open Developer Tools
    - Wait 15 seconds for tasks to start automatically
